@@ -17,3 +17,10 @@ export const setProducts = (products) => {
     payload: products,
   };
 };
+
+export const removeSelectedProduct = (products) => {
+  return {
+    type: ActionTypes.REMOVE_SELECTED_PRODUCTS,
+    payload: products,
+  };
+};
